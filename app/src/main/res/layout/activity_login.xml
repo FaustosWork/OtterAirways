@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/username_label"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/usernameLabel"
+            android:layout_toRightOf="@+id/usernameLabel"
+            android:layout_marginLeft="5dp"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/password_label"
+            android:layout_below="@+id/usernameLabel"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/passwordLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/passwordLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/loginSubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:text="@string/submit_label"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

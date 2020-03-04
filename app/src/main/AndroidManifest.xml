@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.csumb.jofausto.otterairways">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectFlightActivity"></activity>
+        <activity android:name=".ReservationCancelledActivity" />
+        <activity android:name=".NoTicketsActivity" />
+        <activity android:name=".NoReservationsAvailableActivity" />
+        <activity android:name=".NoFlightsActivity" />
+        <activity android:name=".ManageSystem2Activity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".FlightExistsActivity" />
+        <activity android:name=".ErrorLoginActivity" />
+        <activity android:name=".ErrorCreateAccountActivity" />
+        <activity android:name=".DeletionCancelledActivity" />
+        <activity android:name=".DeleteReservationActivity" />
+        <activity android:name=".ConfirmReservationActivity" />
+        <activity android:name=".ConfirmDeletionActivity" />
+        <activity android:name=".ConfirmAddFlightActivity" />
+        <activity android:name=".AddFlightActivity" />
+        <activity android:name=".ManageSystemActivity" />
+        <activity android:name=".CancelReservationActivity" />
+        <activity android:name=".ReserveSeatActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

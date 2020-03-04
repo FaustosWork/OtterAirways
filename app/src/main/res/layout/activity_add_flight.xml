@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/flightNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Enter Flight No"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/flightNoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/flightNo"
+            android:layout_toRightOf="@+id/flightNo"
+            android:layout_marginLeft="5dp"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/departureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flightNo"
+            android:padding="10dp"
+            android:text="Enter Departure City"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/departureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/departureLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/departureLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/arrivalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departureLabel"
+            android:padding="10dp"
+            android:text="Enter Arrival CitA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/arrivalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/arrivalLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/arrivalLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/timeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arrivalLabel"
+            android:padding="10dp"
+            android:text="Enter Departure Time"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/timeLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/timeLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/capacityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeLabel"
+            android:padding="10dp"
+            android:text="Enter Flight Capacity"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/capacitytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/capacityLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/capacityLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/priceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/enter_price"
+            android:layout_below="@+id/capacityLabel"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/priceLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/priceLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priceLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:text="@string/submit_label"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

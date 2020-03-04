@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Otter Airways</string>
+
+    <string name="username_label">Username</string>
+
+    <string name="password_label">Password</string>
+
+    <string name="create_account_button_label">Create Account</string>
+
+    <string name="reserve_seat_button_label">Reserve Seat</string>
+
+    <string name="cancel_reservation_button_label">Cancel Reservation</string>
+
+    <string name="manage_system_button_label">Manage System</string>
+
+    <string name="create_account_activity_label">Create Account</string>
+
+    <string name="reserve_seat_activity_label">Reserve Seat</string>
+
+    <string name="cancel_reservation_activity_label">Cancel Reservation</string>
+
+    <string name="manage_system_activity_label">Manage System</string>
+
+    <string name="login_label">Login</string>
+
+    <string name="submit_label">Submit</string>
+
+    <string name="invalid_input_text">Error! Unable to create account! Click accept to return to the Main Menu.</string>
+
+    <string name="accept_button_label">Accept</string>
+
+    <string name="error_label">Error</string>
+
+    <string name="departure_info_label">Input Departure City</string>
+
+    <string name="arrival_info_label">Input Arrival City</string>
+
+    <string name="arrivallabel">Arrival</string>
+
+    <string name="departurelabel">Departure</string>
+
+    <string name="montereylabel">Monterey</string>
+
+    <string name="seattlelabel">Seattle</string>
+
+    <string name="losangeleslabel">Los Angeles</string>
+
+    <string name="numberoftickets">Number of Tickets: </string>
+
+    <string name="submitbuttonlabel">Submit</string>
+
+    <string name="no_tickets_text">Error! Invalid number of tickets selected! Click Accept to try again</string>
+
+    <string name="noTicketsLabel">Invalid Number of Tickets</string>
+
+    <string name="selectFlightLabel">Select a Flight</string>
+
+    <string name="enterFlightNo">Enter a Flight No</string>
+
+    <string name="submitFlightLabel">Submit</string>
+
+    <string name="failed_login_text">Login Failed! Click Accept to return to the Main Menu</string>
+
+    <string name="errorLoginLabel">Unable to Login</string>
+
+    <string name="confirmFlightButtonLabel">Confirm</string>
+
+    <string name="cancelButtonLabel">Cancel</string>
+
+    <string name="confirmFlightLabel">Confirm Reservation</string>
+
+    <string name="cancelReservationMessage">Are you sure you want to cancel? Click Confirm to cancel reservation, Click Cancel to return to the Confirm Reservation Page</string>
+
+    <string name="cancelledReservationText">Reservation was cancelled. Click Accept to return to the Main Menu.</string>
+
+    <string name="resCancelledLabel">Reservation Cancelled</string>
+
+    <string name="noFlights">No flights available for the information given. Click Accept to return to the Main Menu</string>
+
+    <string name="noFlightsLabel">No Flights Available</string>
+
+    <string name="deleteReservationTitle">Delete Reservation</string>
+
+    <string name="noReservationsTitle">No Reservations</string>
+
+    <string name="noReservationActivtiyText">There are currently no reservations for this account. Click Accept to return to the Main Menu</string>
+
+    <string name="enterReservationLabel">Enter Reservation Number</string>
+
+    <string name="confirmDeletionMessage">Are you sure you want to cancel the reservation?</string>
+
+    <string name="confirmDeletionLabel">Confirm</string>
+
+    <string name="confirmDeletionTitle">Confirm Deletion</string>
+
+    <string name="deletionCancelledText">Cancellation has failed!</string>
+
+    <string name="otter_airways">Otter Airways</string>
+    <string name="enter_price">Enter Price</string>
+
+
+</resources>

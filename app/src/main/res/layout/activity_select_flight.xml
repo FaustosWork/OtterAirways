@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="148dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/enterFlightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterFlightNo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/flightNoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/enterFlightLabel"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/enterFlightLabel"
+            android:ems="8"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/submitFlightNoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterFlightLabel"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submitFlightLabel"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="219dp" />
+        <TextView
+            android:id="@+id/flightInformation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/submitFlightNoButton"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
